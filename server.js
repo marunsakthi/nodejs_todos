@@ -7,7 +7,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/todo", todoRouter);
+app.use("/todos", todoRouter);
 
 app.use("/", (req, res) => {
   return res.status(200).send("Hello Todos");
