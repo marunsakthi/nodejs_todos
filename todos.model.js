@@ -4,7 +4,7 @@ let id = 1;
 
 const todo = {
   id: 1,
-  task: "Learning node js",
+  task: "Todo",
   completed: false,
   dueDate: new Date(),
 };
@@ -79,5 +79,6 @@ module.exports = {
     completedTodo,
     deleteTodo,
     updateTodo
+
 
 }
