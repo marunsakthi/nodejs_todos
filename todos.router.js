@@ -14,7 +14,8 @@ const todoRouter = express.Router();
 todoRouter.get('/',httpGetAllTodos)
 todoRouter.get('/:id',httpGetTodo)
 todoRouter.post('/',httpAddNewTodo)
-todoRouter.post('/:id',httpUpdateTodo)
+todoRouter.put('/:id',httpUpdateTodo)
 todoRouter.delete('/:id',httpDeleteTodo)
+
 
 module.exports = todoRouter;
